@@ -60,6 +60,8 @@ Database:
 MySQL is used for database management, designed with properly structured tables such as users, books, orders, cart, and messages. Relationships between tables are maintained using primary and foreign keys to ensure data consistency, and SQL queries (CRUD operations) are used for data manipulation and retrieval.
 
 ER Diagram:
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/3fa63332-1c94-4023-8ee3-16758d77cd9f" />
+
 
 
 # 🎥 Demo Video
