@@ -2,7 +2,7 @@
 
 # 🚀 Project Title
 
-Online Bookstore Management Sysrtem
+Online Bookstore Management System
 
 # 📌 Overview
 
