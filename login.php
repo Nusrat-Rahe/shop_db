@@ -8,7 +8,7 @@ if(isset($_POST['submit'])){
    $email = mysqli_real_escape_string($conn, $_POST['email']);
    $pass = mysqli_real_escape_string($conn, md5($_POST['password']));
 
-   // Check in admin table first
+  
    $select_admin = mysqli_query($conn, "SELECT * FROM `admin` WHERE email = '$email' AND password = '$pass'") or die('query failed');
 
    if(mysqli_num_rows($select_admin) > 0){
@@ -18,7 +18,7 @@ if(isset($_POST['submit'])){
       $_SESSION['admin_id'] = $row['id'];
       header('location:admin_page.php');
    }else{
-      // Check in users table
+   
       $select_users = mysqli_query($conn, "SELECT * FROM `users` WHERE email = '$email' AND password = '$pass'") or die('query failed');
       
       if(mysqli_num_rows($select_users) > 0){
